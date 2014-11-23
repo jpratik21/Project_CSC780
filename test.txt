@@ -1,1 +1,20 @@
-test
+This doc will exlpain how to push exisiting code to our repo and how to make a new project and push that to the repo.
+
+Step 1.
+	Create a new folder/project if you do not have one already. 
+Step 2.
+	cd into that folder and type "git init"
+		this initilizes a git repo for the files in the folder.
+Step 3.
+	type "git add ." to add version tracking to all the files in the folder.
+Step 4.
+	type "git commit -m "some message" ". This is an initial commit to get the project ready and up and running on github.
+Step 5.
+	type "git remote add origin https://github.com/jpratik21/Project_CSC780.git" to be able to push to the repo we have. Or replace the link with a different repo if you want to 	add it to some other repo. You can git the link from github on the lower right hand corner of the screen on the repo page.
+Step 6.
+	type "git remote -v" to show the origins. This is where we will be pushing and pulling from.
+Step 7.
+	IF YOU HAVE EXISTING FILES IN YOUR GITHUB REPO THAT ARE NOT IN YOUR LOCAL FOLDER THAT YOU MADE IN THE FIRST STEP, (IF YOU HAVE THE SAME FILES IN GITHUB AND ON TOUR LOCAL COPY, SKIP THIS STEP) then type "git pull origin master"
+		This will pull the exising files in github and place them in your local folder.
+Step 8.
+	Type "git push origin master" to push all contents from you local folder to github
