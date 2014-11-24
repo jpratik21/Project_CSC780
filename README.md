@@ -27,7 +27,7 @@ We have tested on Google Nexus 5. It should work well on most modern devices (if
 Everything is on GitHub. Use the code in any way you think is best but please help make it better. If you make a change that is good then make sure to push it to the Github here. The goal of us posting this is to make the game better and closer to actually being on the market (for free)
 <br></br><br></br>
 And thanks to Dr. Puder at San Francisco State University for the helpful tutorials on Android. Without referring those, we could not have thought of developing a game, especially, the tutorials that made use of SurfaceView class in Android.
-<br></br>
-<b>Want to contact me?</b><br></br><br></br>
+<br></br><br></br>
+<b>Want to contact me?</b><br></br>
 Email me at calpratik@gmail.com.
 
