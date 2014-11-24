@@ -11,11 +11,11 @@ A while ago, we have started programming a game for Android. Since we do not hav
 -	Android
 -	Java<br></br>
 (No external library, but, we would encourage you to do so. <br></br>
-Suggestion: Use AndEngine/Libgdx/Box2D. Google these ones and try to the render the activities)
+Suggestion: Use AndEngine/Libgdx/Box2D. Google these ones and try to the render the activities)<br></br>
 <br></br>
-<b>Working now</b>
+<b>Working now</b><br></br>
 The player is behaving quite well but improvements can be made. Check the development guide here on Github that will walk you through the entire Coincraver game development process. <br></br><br></br>
-<b>Spagetti code(We think so, what you think?)</b>
+<b>Spagetti code(We think so, what you think?)</b><br></br>
 You are free to make improvements to the code structure too. We would recommend a cleaning because this was our first “game” project for Android.
 <br></br>
 
