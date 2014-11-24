@@ -5,6 +5,10 @@ This repository contains all the information about the android application/game 
 
 <b>2D game in Android (help adding to it and that will be appreciated)</b>
 <br></br>
+<br>
+https://docs.google.com/drawings/d/1t3lcluRbFc1ZmHtQA42sSx1JZDNk3CKEeRIWa74g2D4/edit?usp=sharing
+<br>
+<br></br>
 A while ago, we have started programming a game for Android. Since we do not have enough time to finish it, we thought it would be better to publish the results so far. Everything is open source as you can see. We would like to see the improvements and added functionalities in our game and that is why we have decided to open source it.
 
 <b>Used Things:</b><br></br>
