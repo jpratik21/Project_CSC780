@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<layer-list xmlns:android="http://schemas.android.com/apk/res/android" >
+    <item android:drawable="@drawable/home_image" />
+<shape xmlns:android="http://schemas.android.com/apk/res/android" android:id="@+id/rectborder">
+    <stroke android:width="5dp" android:color="#ff207d94" />
+    
+    <padding android:left="2dp"
+        android:top="5dp"
+        android:right="5dp"
+        android:bottom="5dp" />
+    <corners android:radius="100dp" />
+    <solid android:color="#ffffffff" />
+</shape>
+</layer-list>
