@@ -19,7 +19,7 @@ Suggestion: Use AndEngine/Libgdx/Box2D. Google these ones and try to the render 
 <br></br>
 <b>Working now</b><br></br>
 The player is behaving quite well but improvements can be made. Check the development guide here on Github that will walk you through the entire Coincraver game development process. <br></br><br></br>
-<b>Spagetti code(We think so, what you think?)</b><br></br>
+<b>Spaghetti code(We think so, what you think?)</b><br></br>
 You are free to make improvements to the code structure too. We would recommend a cleaning because this was our first “game” project for Android.
 <br></br>
 
