@@ -71,7 +71,9 @@ public class GameActivity {
 
 	Bitmap roadImage, dividerImage, coinImage, playerJumpImage;
 	Bitmap[] playerImages;
+	Bitmap[] backgroundImage;
 	final int MAX_PLAYER_IMAGES = 4;
+	final int MAX_BACKGROUND_IMAGES = 1;
 
 	SoundPool soundPool;
 	int PlayerJumpSnd, PlayerGrabCoinSnd, PlayerCrashSnd;
@@ -79,6 +81,7 @@ public class GameActivity {
 	Random rng;
 
 	PlayerActivity player;
+	Background background;
 
 	/*
 	 * groundY, groundHeight variables are used by doPlayerFall() and
@@ -134,6 +137,7 @@ public class GameActivity {
 
 		coin = new CoinActivity(this);
 		road = new RoadActivity(this);
+		background = new Background(this);
 
 		highScore = SCORE_DEFAULT;
 
@@ -229,6 +233,8 @@ public class GameActivity {
 	private void gameOver(Canvas canvas) {
 
 		canvas.drawRect(0, 0, width, height, clearPaint);
+		background.update();
+		background.draw(canvas);
 
 		canvas.drawText("GAME OVER", width / 2.4f, height / 2, whitePaint);
 
@@ -240,11 +246,15 @@ public class GameActivity {
 
 	/*
 	 * This is the first state which will be called when the player starts the
-	 * game. It draws player, coin, road and holes in it.
+	 * game. It draws player, coin, road and holes in it and background.
 	 */
 
 	private void gamePlay(Canvas canvas) {
 		canvas.drawRect(0, 0, width, height, clearPaint);
+		background.update();
+		background.draw(canvas);
+
+		road.draw(canvas);
 		road.update();
 		road.draw(canvas);
 
@@ -273,6 +283,8 @@ public class GameActivity {
 
 		long now;
 		canvas.drawRect(0, 0, width, height, clearPaint);
+		background.update();
+		background.draw(canvas);
 
 		switch (getReadyGoState) {
 		case SHOW_GET_READY:
@@ -303,6 +315,8 @@ public class GameActivity {
 	private void gameMenu(Canvas canvas) {
 
 		canvas.drawRect(0, 0, width, height, clearPaint);
+		background.update();
+		background.draw(canvas);
 
 		canvas.drawText("COINCRAVER", (width / 3.5f), 200.0f, logoPaint);
 		canvas.drawText("TOP SCORE: " + highScore, (width / 2.55f),
@@ -396,6 +410,9 @@ public class GameActivity {
 
 		playerJumpImage = BitmapFactory.decodeResource(res,
 				R.drawable.playerjump);
+		
+		backgroundImage = new Bitmap[MAX_BACKGROUND_IMAGES];
+		backgroundImage[0] = BitmapFactory.decodeResource(res, R.drawable.bg4_2);
 
 		playerImages = new Bitmap[MAX_PLAYER_IMAGES];
 		playerImages[0] = BitmapFactory.decodeResource(res, R.drawable.player0);
@@ -596,5 +613,4 @@ public class GameActivity {
 	public float random(float a, float b) {
 		return Math.round(a + (rng.nextFloat() * (b - a)));
 	}
-
 }
