@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/frameback"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/Black" >
+
+    <com.mobile.coincraver.GameViewActivity
+        android:id="@+id/playermove"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent" />
+
+   <ImageView
+        android:contentDescription="@string/descp"
+   		android:id="@+id/backplay"
+   		android:src="@drawable/back"
+   		android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="260dp"
+        android:layout_marginLeft="278dp"
+        android:layout_marginStart="278dp"/>
+
+</FrameLayout>
