@@ -12,7 +12,8 @@
     <string name="ActivateMusic">Activate Music ?</string>
     <string name="controls">Controls</string>
     <string name="back">Go Back!</string>
-    <string name="ControlDisplay">The most simple game ever.
+    <string name="activate">Sound Activator</string>
+    <string name="ControlDisplay">Controls: The most simple game ever.
         Tap on the screen to jump and save yourself from the holes. 
         At the same time, you can collect the coins and pump up
         the score. Enjoy @coincraver :) :)</string>
