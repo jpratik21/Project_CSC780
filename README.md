@@ -1,6 +1,8 @@
 Project_CSC780
 =================
 
+<a href="https://play.google.com/store/apps/details?id=com.mobile.coincraver">Play Store Link to Coincraver</a>
+
 This repository contains all the information about the android application/game Coincraver. We are developing this game as a part of mobile development course CSC 780 at San Francisco State University under Dr. Puder. Check out the "<b>design doucment in the wiki</b>" section to get the overview of our project.
 
 <b>2D game in Android (help adding to it and that will be appreciated)</b>
