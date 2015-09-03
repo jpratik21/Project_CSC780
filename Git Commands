@@ -17,4 +17,4 @@ Step 7.
 	IF YOU HAVE EXISTING FILES IN YOUR GITHUB REPO THAT ARE NOT IN YOUR LOCAL FOLDER THAT YOU MADE IN THE FIRST STEP, (IF YOU HAVE THE SAME FILES IN GITHUB AND ON TOUR LOCAL COPY, SKIP THIS STEP) then type "git pull origin master"
 		This will pull the exising files in github and place them in your local folder.
 Step 8.
-	Type "git push origin master" to push all contents from you local folder to github
+	Type "git push origin master" to push all contents from your local folder to github
